@@ -33,7 +33,7 @@ async function run() {
             res.send(cars);
         });
 
-        // GET SINGLE car
+        // GET SINGLE car api
         app.get('/carDetails/:id', async (req, res) => {
             const id = req.params.id;
             const query = { _id: ObjectId(id) };
