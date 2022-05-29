@@ -140,7 +140,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send('Welcome to Premium-Motors server');
+    res.send('Welcome to Aj Car Parts Manufacturer');
 });
 app.listen(port, () => {
     console.log('Running on port: ', port);
